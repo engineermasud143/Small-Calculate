@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>গাণিতিক সমস্যা সমাধান</title>
+</head>
+<body>
+   <style>
+    *{
+        margin: 10px;
+        padding: 20px;
+    }
+    h1{
+        text-align: center;
+        font-size: 20px;
+        color: orangered;
+    }
+    label{
+        display: flex;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        font-size: large;
+    }
+    input{
+        color: blueviolet;
+        border: 2px greenyellow solid;
+    }
+    
+    button{
+        color: black;
+        background-color: orange;
+        border: none;
+        border-radius: 10px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+    button:hover{
+        color: rgb(0, 0, 0);
+        background-color: greenyellow;
+
+    }
+    h2{
+        color: rgb(47, 203, 255);
+    }
+
+    p{
+        color: rgb(44, 247, 4);
+    }
+   </style>
+    <section>
+        <h1>গাণিতিক সমস্যা সমাধান করুন</h1>
+    
+    <label for="numbers">সংখ্যা দিন (কমা দিয়ে আলাদা করুন):</label>
+    <input style="input:placeholder" type="text" id="numbers" placeholder="উদাহরণ: 10,20,30">
+    
+    <br><br>
+
+    
+        <button id="calculateSum">যোগফল বের করুন</button>
+        <button id="calculateAverage">গড় বের করুন</button>
+        <button id="calculateMultiplication">গুণফল বের করুন</button>
+
+
+    <h2>ফলাফল:</h2>
+    <p id="result"></p>
+    </section>
+
+    <script src="script.js"></script>
+        
+
+</body>
+</html>
